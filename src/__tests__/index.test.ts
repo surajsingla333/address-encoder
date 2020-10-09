@@ -301,6 +301,13 @@ const vectors: Array<TestVector> = [
     ],
   },
   {
+    name: 'VSYS',
+    coinType: 360,
+    passingVectors: [
+      { text: 'ALvmTSEjNREwcRNJiLcTkxCnsXBfbZEUFK', hex: '173887346ea0b83129ff21f1ef3e6008a80373d1b3' },
+    ],
+  },
+  {
     name: 'KSM',
     coinType: 434,
     passingVectors: [
